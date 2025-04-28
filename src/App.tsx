@@ -1,4 +1,3 @@
-import {useState} from 'react'
 
 
 
@@ -7,11 +6,6 @@ import './App.css'
 import ProjectsSection from "./Projects-section.tsx";
 
 
-import projects1 from '/assets/projects-1.png'
-
-import projects2 from '/assets/projects-2.png'
-
-import projects3 from '/assets/projects-3.png'
 
 
 
@@ -61,7 +55,7 @@ function App() {
             <h3 className='projects-section-h3'>Проекты</h3>
 
             <ProjectsSection
-              projects={'projects1'}
+         projects={'projects1'}
                 description={'ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023'}
             />
 
