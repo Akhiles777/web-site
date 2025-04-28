@@ -52,7 +52,6 @@ header ul .o-nas {
   width: 1150px;
   height: 500px;
   background-image: url("assets/page-1.png");
-
   margin-left: 150px;
   display: block; /* Убираем лишние пробелы вокруг изображения */
   z-index: 1;
