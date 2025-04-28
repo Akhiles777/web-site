@@ -122,20 +122,20 @@ width: 1051px;
 .projects-section .projects1{
   width: 1150px;
   height: 450px;
-  background-image: url("assets/projects-1.png");
+  background-image: url("public/assets1/projects-1.png");
 }
 
 .projects-section .projects2{
   width: 1150px;
   height: 450px;
-  background-image: url("assets/projects-2.png");
+  background-image: url("public/assets1/projects-2.png");
 }
 
 
 .projects-section .projects3{
   width: 1150px;
   height: 450px;
-  background-image: url("assets/projects-3.png");
+  background-image: url("public/assets1/projects-3.png");
 }
 
 
