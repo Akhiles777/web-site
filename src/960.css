@@ -1,0 +1,177 @@
+@media (max-width: 960px) {
+
+    .container {
+        width: 960px;
+        position: relative;
+
+    }
+
+    header ul{
+        display: none;
+    }
+
+    .container-1{
+        display: flex;
+        flex-direction: column;
+        width: 960px;
+        align-items: center;
+    }
+
+    .container-1 h1{
+        width: 750px;
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: 500;
+        margin-right: 140px;
+    }
+
+    .container-1 div{
+        width: 900px;
+        height: 450px;
+        background-image: url("assets/page-1.png");
+        margin-left: 10px;
+        margin-right: 10px;
+        object-fit: cover;
+
+    }
+
+
+    .container-1  p {
+          width: 350px;
+        height: 80px;
+        line-height: 105%;
+        font-size: 18px;
+        position: absolute;
+        top: 510px; /* Отступ сверху внутри контейнера */
+        left: 70px; /* Отступ слева */
+        color: white;
+        font-weight: 400;
+        z-index: 2;
+
+    }
+
+
+
+
+    .container-2{
+        display: flex;
+        flex-direction: column;
+        width: 800px;
+    }
+
+    .container-2 h3{
+        width: 51px;
+        font-size: 20px;
+        line-height: 100%;
+        font-weight: 500;
+        margin-top: 100px;
+        margin-left: 50px;
+
+    }
+
+
+    .container-2 h2{
+        width: 690px;
+        font-size: 35px;
+        line-height: 100%;
+        font-weight: 500;
+        margin-left: 50px;
+
+    }
+
+    .container-2 button{
+        width: 200px;
+        height: 50px;
+        border-radius: 6px;
+        background-color: rgba(173, 24, 24, 1);
+        color: white;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 100%;
+        border: none;
+        cursor: pointer;
+        margin-left: 50px;
+
+    }
+
+
+    .projects-section{
+        width: 960px;
+        margin-left: 50px;
+        margin-top: 100px;
+    }
+
+    .projects-section .projects1{
+        width: 900px;
+        height: 450px;
+        background-image: url("assets/projects-1.png");
+        background-position: right;
+        margin-left: 10px;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+
+    .projects-section .projects2{
+        width: 900px;
+        height: 450px;
+        background-image: url("assets/projects-2.png");
+        background-position: right;
+        margin-left: 10px;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+
+
+    .projects-section .projects3{
+        width: 900px;
+        height: 450px;
+        background-image: url("assets/projects-3.png");
+        background-position: right;
+        margin-left: 10px;
+        margin-right: 10px;
+        object-fit: cover;
+    }
+
+
+    .projects-section-h3{
+        margin-left: 80px;
+        margin-top: 50px;
+        font-size: 25px;
+        line-height: 100%;
+        font-weight: 500;
+
+    }
+
+
+    .projects-section h4{
+        font-size: 25px;
+        line-height: 100%;
+        font-weight: 500;
+    }
+
+    .projects-section p{
+        color:rgba(173, 24, 24, 1);
+        font-size: 19px;
+    }
+
+
+    .btn{
+        width: 900px;
+        height: 130px;
+        margin-left: 60px;
+        margin-top: 40px;
+        border-radius: 5px;
+        border: 1px solid rgba(173, 24, 24, 1);
+        color: rgba(173, 24, 24, 1);
+        font-size: 30px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all ease 500ms;
+    }
+
+    .btn:hover{
+        background-color: rgba(173, 24, 24, 1);
+        color: white;
+    }
+
+}

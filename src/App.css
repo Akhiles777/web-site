@@ -1,0 +1,182 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: inline-block;
+  width: 1400px;
+  position: relative;
+}
+
+header ul {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 40px;
+  float: right;
+  margin-top: 30px;
+}
+
+header ul li {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 100%;
+  color: rgba(18, 18, 18, 1);
+  cursor: pointer;
+}
+
+header ul .o-nas {
+  color: silver;
+  border-bottom: 2px solid silver;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1400px;
+  position: relative; /* Чтобы позиционировать текст относительно контейнера */
+}
+
+.container-1 h1 {
+  width: 900px;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 500;
+}
+
+.container-1 div {
+  width: 1150px;
+  height: 500px;
+  background-image: url("assets/page-1.png");
+
+  margin-left: 150px;
+  display: block; /* Убираем лишние пробелы вокруг изображения */
+  z-index: 1;
+
+}
+
+
+.container-1  p {
+  width: 430px;
+  height: 80px;
+  line-height: 110%;
+  font-size: 20px;
+  position: absolute;
+  top: 570px; /* Отступ сверху внутри контейнера */
+  left: 250px; /* Отступ слева */
+  color: white;
+font-weight: 400;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+
+.container-2{
+  display: flex;
+  flex-direction: column;
+
+width: 1051px;
+}
+
+.container-2 h3{
+  width: 51px;
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: 500;
+  margin-top: 100px;
+  margin-left: 210px;
+}
+
+
+.container-2 h2{
+  width: 1000px;
+  font-size: 45px;
+  line-height: 100%;
+  font-weight: 500;
+  margin-left: 200px;
+}
+
+.container-2 button{
+  width: 200px;
+  height: 50px;
+  border-radius: 6px;
+  background-color: rgba(173, 24, 24, 1);
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 100%;
+  border: none;
+  cursor: pointer;
+  margin-left:200px;
+}
+
+.projects-section{
+  width: 1150px;
+  margin-left: 180px;
+  margin-top: 100px;
+}
+
+.projects-section .projects1{
+  width: 1150px;
+  height: 450px;
+  background-image: url("assets/projects-1.png");
+}
+
+.projects-section .projects2{
+  width: 1150px;
+  height: 450px;
+  background-image: url("assets/projects-2.png");
+}
+
+
+.projects-section .projects3{
+  width: 1150px;
+  height: 450px;
+  background-image: url("assets/projects-3.png");
+}
+
+
+.projects-section-h3{
+  margin-left: 180px;
+  margin-top: 50px;
+  font-size: 25px;
+  line-height: 100%;
+  font-weight: 500;
+
+}
+
+
+.projects-section h4{
+  font-size: 32px;
+  line-height: 100%;
+  font-weight: 500;
+}
+
+.projects-section p{
+  color:rgba(173, 24, 24, 1);
+  font-size: 20px;
+}
+
+
+.btn{
+  width: 1150px;
+  height: 150px;
+  margin-left: 180px;
+  margin-top: 50px;
+  border-radius: 5px;
+  border: 1px solid rgba(173, 24, 24, 1);
+  color: rgba(173, 24, 24, 1);
+  font-size: 30px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all ease 500ms;
+}
+
+.btn:hover{
+  background-color: rgba(173, 24, 24, 1);
+  color: white;
+}
