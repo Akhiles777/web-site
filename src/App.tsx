@@ -6,6 +6,8 @@ import './App.css'
 import ProjectsSection from "./Projects-section.tsx";
 
 
+import ProjectsSection2 from './Projects-section-2.tsx'
+
 
 
 
@@ -23,7 +25,9 @@ function App() {
             <header>
                 <ul>
                     <li className='o-nas'>О НАС</li>
-                    <li>Проекты</li>
+
+                        <li>Проекты</li>
+
                     <li>Услуги</li>
                     <li>Контакты</li>
                 </ul>
@@ -52,10 +56,10 @@ function App() {
                 </div>
             </header>
 
-            <h3 className='projects-section-h3'>Проекты</h3>
+            <h3 className='projects-section-h3' id='projects'>Проекты</h3>
 
             <ProjectsSection
-         projects={'projects1'}
+                projects={'projects1'}
                 description={'ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023'}
             />
 
@@ -71,8 +75,48 @@ function App() {
             />
 
 
-
             <button className='btn'>Смотреть все проекты</button>
+
+            <div className="projects-section-2">
+
+                <h2>Услуги</h2>
+
+                <div className='projects-section-2-1'>
+                    <div>
+                        <div className='projects-content'>
+                            <div className='projects-section-price'>от 2500₽/м²</div>
+                        </div>
+                        <h3 className='projects-content-left'>Планировочное решение </h3>
+                    </div>
+
+                    <div>
+                        <div className='projects-content-2'>
+                            <div className='projects-section-price'>от 3000₽/м²</div>
+                        </div>
+                        <h3 className='projects-content-right'>Дизайн-проект </h3>
+                    </div>
+                </div>
+
+
+                <div className='projects-section-2-2'>
+                    <div className='projects-content-2-2-title'>
+                        <div className='projects-content'>
+                            <div className='projects-section-price'>от 30 000₽/мес</div>
+                        </div>
+                        <h3 className='projects-content-left'>Авторский надзор</h3>
+                    </div>
+
+
+                    <div>
+                        <div className='projects-content-2'>
+                            <div className='projects-section-price edit'>5% от стоимости</div>
+                        </div>
+                        <h3 className='projects-content-left-2'>Комплектация </h3>
+                    </div>
+                </div>
+
+                <button className='btn'>Заказать услугу</button>
+            </div>
 
 
         </div>
