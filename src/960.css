@@ -178,7 +178,7 @@
 
     .projects-section-2{
         width: 105.2%;
-        height: 1600px;
+        height: 1200px;
         background-color: black;
         padding-top: 20px;
 
@@ -298,6 +298,235 @@
     }
 
 
+    .otzivi{
+        width: 900px;
+        height: 600px;
+        display: flex;
+ justify-content: space-between;
+        padding-top: 100px;
+    }
+
+    .otzivi-title{
+        position: relative;
+        bottom:80px;
+        left: 50px;
+        font-size: 25px;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+
+    .otzivi-1 h2{
+        font-size: 35px;
+        line-height: 100%;
+        font-weight: 300;
+        color: rgba(0, 0, 0, 1)
+    }
+
+    .otzivi-1{
+        position: relative;
+        right: 200px;
+        width: 530px;
+        display: flex;
+        flex-direction: column;
+        height: 390px;
+
+    }
+
+
+
+    .otzivi-1 p {
+        width: 459px;
+        height: 350px;
+        font-size: 20px;
+        line-height: 100%;
+    }
+
+.rigth p{
+    width: 380px;
+    position: relative;
+    right: 70px;
+}
+
+.rigth h2{
+    position: relative;
+    right: 70px;
+}
+
+    .otzivi2{
+        display: flex;
+        flex-direction: column;
+        height: 600px;
+    }
+
+    .otzivi-2 h2{
+        font-size: 35px;
+        line-height: 100%;
+        font-weight: 300;
+        color: rgba(0, 0, 0, 1)
+    }
+
+
+
+    .otzivi-2{
+        width: 530px;
+        height: 300px;
+        position: relative;
+        right: 100px;
+        bottom: 130px;
+    }
+
+    .otzivi-2 p {
+        width: 694px;
+        height: 297px;
+        font-size: 23px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+
+        line-height: 105%;
+    }
+
+    .otzivi-edit{
+        position: relative;
+        bottom: 120px;
+    }
+
+    .gallery{
+        position: relative;
+        bottom: 320px;
+        width: 960px;
+    }
+
+
+    .gallery .gallery-item{
+        width: 960px;
+        height: 536px;
+        margin-left: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("assets/gallery1.png");
+    }
+
+
+    .gallery .gallery-2{
+        width: 960px;
+
+        height: 536px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("assets/gallery2.png");
+    }
+
+
+    .gallery .gallery-3{
+        width: 960px;
+        height: 536px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("assets/gallery3.png");
+    }
+
+
+    .gallery div h2{
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        margin-left: 84px;
+        position: relative;
+        top: 50px;
+    }
+
+    .gallery div p{
+        width: 443px;
+        color: white;
+        font-size: 25px;
+        font-weight: 500;
+        margin-left: 104px;
+        position: relative;
+        top: 340px;
+        line-height: 110%;
+    }
+
+    .gallery div button{
+        width: 40px;
+        height: 40px;
+        color: white;
+        font-size: 10px;
+        font-weight: 500;
+        margin-left: 124px;
+        position: relative;
+        top: 340px;
+        line-height: 110%;
+        background-color: white;
+    }
+
+    .contact{
+        position: relative;
+        bottom: 300px;
+        margin-left: 30px;
+        margin-top: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact h3 a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .contact h3{
+        font-size: 35px;
+        font-weight: 400;
+    }
+
+    .contact-tel{
+        margin-top: 40px;
+        position: relative;
+        right: 200px;
+    }
+
+
+    .contact-mail{
+        margin-top: 40px;
+
+        position: relative;
+        right: 200px;
+    }
+
+
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        width: 1020px;
+        height: 229px;
+        background-color: rgba(18, 18, 18, 1);
+
+    }
+
+    footer ul{
+        padding-left: 250px;
+        padding-right: 250px;
+        color: rgba(255, 255, 255, 1);
+        padding-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    footer ul li{
+        cursor: pointer;
+    }
+
+    footer p{
+        color: rgba(255, 255, 255, 1);
+        opacity: 50%;
+        margin-left: 320px;
+        margin-top: 50px;
+    }
 
 
 
